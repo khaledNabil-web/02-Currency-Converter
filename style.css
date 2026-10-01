@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    background-color: #f5f5f5;
+}
+input{
+    width: 250px;
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 30px ;
+}
+input:focus{
+    border-color: #333; 
+    outline: none;
+}
+.converter{
+    width: 350px;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 10px ;
+    background-color: white;
+    box-shadow: 0 5px 15px #ccc;
+}
